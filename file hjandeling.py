@@ -1,0 +1,8 @@
+f=open("sr.txt","w")
+f.write("hi guys")
+f=open("sr.txt","r")
+print(f.read())
+f=open("sr.txt","a")
+f.write(" hello")
+f=open("sr.txt","r")
+print(f.read())
